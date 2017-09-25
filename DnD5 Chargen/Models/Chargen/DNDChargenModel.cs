@@ -10,10 +10,4 @@ namespace DnD5_Chargen.Models.Chargen {
 
   public class DNDCharacterContainer {
   }
-
-  public class Proficiency {
-    public string Type { get; set; }
-    public int Limit { get; set; }
-    public List<string> Members { get; set; }
-  }
 }

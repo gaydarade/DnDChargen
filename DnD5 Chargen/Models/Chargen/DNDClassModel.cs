@@ -67,7 +67,7 @@ namespace DnD5_Chargen.Models.Chargen {
       public string Description { get; set; }
       [JsonProperty("class-features")]
       public List<ClassFeature> ClassFeatures { get; set; }
-      public string name { get; set; }
+      public string Name { get; set; }
     }
 
   }
