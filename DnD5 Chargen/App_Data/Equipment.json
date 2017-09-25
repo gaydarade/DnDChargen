@@ -1,0 +1,139 @@
+﻿{
+  "equipment-type-list": [
+    {
+      "armor-type-list": [
+        {
+          "type": "Light",
+          "dex-mod": true,
+          "description": "Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.",
+          "armor-list": [
+            {
+              "name": "Padded",
+              "description": "Padded armor consists of quilted layers of cloth and batting.",
+              "gold-cost": 5,
+              "armor-base": 11,
+              "stealth-penalty": true,
+              "weight": 8
+            },
+            {
+              "name": "Leather",
+              "description": "The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.",
+              "gold-cost": 10,
+              "armor-base": 11,
+              "weight": 10
+            },
+            {
+              "name": "Studded Leather",
+              "description": "Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.",
+              "gold-cost": 45,
+              "armor-base": 12,
+              "weight": 13
+            }
+          ]
+        },
+        {
+          "type": "Medium",
+          "dex-mod": true,
+          "dex-cap": 2,
+          "description": "Medium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.",
+          "armor-list": [
+            {
+              "name": "Hide",
+              "description": "This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.",
+              "gold-cost": 10,
+              "armor-base": 12,
+              "weight": 12
+            },
+            {
+              "name": "Chain Shirt",
+              "description": "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offersmodest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.",
+              "gold-cost": 50,
+              "base-armor": 13,
+              "weight": 20
+            },
+            {
+              "name": "Scale mail",
+              "description": "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.",
+              "gold-cost": 50,
+              "base-armor": 14,
+              "stealth-penalty": true,
+              "weight": 45
+            },
+            {
+              "name": "Breastplate",
+              "description": "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.",
+              "gold-cost": 400,
+              "base-armor": 14,
+              "weight": 20
+            },
+            {
+              "name": "Half plate",
+              "description": "Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.",
+              "gold-cost": 750,
+              "base-armor": 15,
+              "stealth-penalty": true,
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "type": "Heavy",
+          "dex-mod": false,
+          "description": "Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.\n\nHeavy armor doesn't let you add your dexterity modifier to your armor class, but it also doesn't penalize you if your Dexterity modifier is negative,",
+          "armor-list": [
+            {
+              "name": "Ring mail",
+              "description": "This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn by those who can't afford better armor.",
+              "gold-cost": 30,
+              "base-armor": 14,
+              "stealth-penalty": true,
+              "weight": 40
+            },
+            {
+              "name": "Chain mail",
+              "description": "Made of interlocking metal rings, chain mail includes a layer of quinted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.",
+              "gold-cost": 75,
+              "base-armor": 16,
+              "strength-requirement": 13,
+              "stealth-penalty": true,
+              "weight": 55
+            },
+            {
+              "name": "Splint",
+              "description": "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.",
+              "gold-cost": 200,
+              "base-armor": 17,
+              "strength-requirement": 15,
+              "stealth-penalty": true,
+              "weight": 60
+            },
+            {
+              "name": "Plate",
+              "description": "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.",
+              "gold-cost": 1500,
+              "base-armor": 18,
+              "strength-requirement": 15,
+              "stealth-penalty": true,
+              "weight": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weapon-list": [
+
+      ]
+    },
+    {
+      "gear-list": [
+
+      ]
+    },
+    {
+      "loot-list": [
+
+      ]
+    }
+  ]
+}
