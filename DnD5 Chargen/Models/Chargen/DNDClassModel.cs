@@ -15,7 +15,7 @@ namespace DnD5_Chargen.Models.Chargen {
       [JsonProperty("hit-dice")]
       public HitDice HitDice { get; set; }
       public Rage Rage { get; set; }
-      public List<Proficiency> Proficiencies { get; set; }
+//    public List<Proficiency> Proficiencies { get; set; }
       [JsonProperty("starting-equipment")]
       public List<StartingEquipment> StartingEquipment { get; set; }
       [JsonProperty("class-features")]

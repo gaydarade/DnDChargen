@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using DnD5_Chargen.Models.Chargen;
+using static DnD5_Chargen.Models.Chargen.DNDRaceContainer;
 
 namespace DnD5_Chargen.Controllers
 {
@@ -89,7 +90,7 @@ namespace DnD5_Chargen.Controllers
 
     [Route("Chargen/Races/{type}")]
     public ActionResult RaceView(string type) {
-      return View(Race.GetRace(type));
+      return View(DNDRace.GetRace(type));
     }
   }
 }
