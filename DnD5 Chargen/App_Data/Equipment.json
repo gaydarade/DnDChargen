@@ -6,6 +6,8 @@
           "type": "Light",
           "dex-mod": true,
           "description": "Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.",
+          "don": "1 minute",
+          "doff": "1 minute",
           "armor-list": [
             {
               "name": "Padded",
@@ -36,6 +38,8 @@
           "dex-mod": true,
           "dex-cap": 2,
           "description": "Medium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.",
+          "don": "5 minutes",
+          "doff": "1 minute",
           "armor-list": [
             {
               "name": "Hide",
@@ -80,6 +84,8 @@
           "type": "Heavy",
           "dex-mod": false,
           "description": "Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.\n\nHeavy armor doesn't let you add your dexterity modifier to your armor class, but it also doesn't penalize you if your Dexterity modifier is negative,",
+          "don": "10 minutes",
+          "doff": "5 minutes",
           "armor-list": [
             {
               "name": "Ring mail",

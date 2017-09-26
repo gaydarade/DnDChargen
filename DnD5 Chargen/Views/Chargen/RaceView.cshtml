@@ -1,9 +1,11 @@
-﻿@model DnD5_Chargen.Models.Chargen.DNDRace
+﻿@using DnD5_Chargen.Models.Chargen
+@model DNDRace
 
 @{
     ViewBag.Title = "RaceView";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>RaceView</h2>
-@Model.Type
+<h2>@Model.Type</h2>
+
+@Html.DisplayFor(x => x.AbilityBonuses)

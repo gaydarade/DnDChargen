@@ -256,8 +256,12 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Chargen\RaceView.cshtml" />
+    <Content Include="Views\Chargen\DisplayTemplates\AbilityBonus.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Chargen\Generation\" />
+    <Folder Include="Views\Chargen\Summaries\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
