@@ -257,6 +257,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Chargen\RaceView.cshtml" />
     <Content Include="Views\Chargen\DisplayTemplates\AbilityBonus.cshtml" />
+    <Content Include="Views\Chargen\DisplayTemplates\RaceFeature.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Chargen\Generation\" />

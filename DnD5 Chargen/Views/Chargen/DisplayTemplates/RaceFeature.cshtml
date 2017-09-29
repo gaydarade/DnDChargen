@@ -1,0 +1,9 @@
+﻿@using System.Globalization;
+@using System.Threading;
+@model DnD5_Chargen.Models.Chargen.RaceFeature
+
+
+@if (!(string.IsNullOrEmpty(Model.Name) || string.IsNullOrEmpty(Model.Text))) {
+<p><b>@Model.Name:</b> <em>@Model.Text</em></p>
+}
+

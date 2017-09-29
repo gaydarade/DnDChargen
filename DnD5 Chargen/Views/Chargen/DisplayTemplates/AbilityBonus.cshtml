@@ -7,4 +7,6 @@
   TextInfo textInfo = cultureInfo.TextInfo;
 }
 
-<b>Ability Score Increase:</b> Increase your <em>@textInfo.ToTitleCase(Model.Ability)</em> score by <em>@Model.Bonus.ToString()</em>
+@if (!(string.IsNullOrEmpty(Model.Ability) || string.IsNullOrEmpty(Model.Bonus.ToString()))) { 
+  <p><b>Ability Score Increase:</b> <em>Increase your @textInfo.ToTitleCase(Model.Ability) score by @Model.Bonus.ToString()</em>.</p>
+}

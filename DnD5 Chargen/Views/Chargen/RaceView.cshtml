@@ -8,4 +8,10 @@
 
 <h2>@Model.Type</h2>
 
-@Html.DisplayFor(x => x.AbilityBonuses)
+@Html.DisplayFor(ab => ab.AbilityBonuses)
+<p><b>Age:</b> <em>@Model.AgeText</em></p>
+<p><b>Alignment:</b> <em>@Model.AlignmentText</em></p>
+<p><b>Size:</b> @Model.Size <em>- @Model.SizeText</em></p>
+<p><b>Speed:</b> @Model.WalkSpeed - <em>@Model.SpeedText</em></p>
+@if (Model.Darkvision) { <p><b>Darkvision:</b> <em>@Model.VisionText</em></p>}
+@Html.DisplayFor(rf => rf.RaceFeatures)

@@ -1,0 +1,10 @@
+﻿@using System.Globalization;
+@using System.Threading;
+@model DnD5_Chargen.Models.Chargen.AbilityBonus
+
+@{ 
+  CultureInfo cultureInfo = Thread.CurrentThread.CurrentCulture;
+  TextInfo textInfo = cultureInfo.TextInfo;
+}
+
+<b>Ability Score Increase:</b> Increase your <em>@textInfo.ToTitleCase(Model.Ability)</em> score by <em>@Model.Bonus.ToString()</em>
